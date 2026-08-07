@@ -1,35 +1,33 @@
-# 👋 Hi, I'm KeyArgo
+# KeyArgo — AI agent authority, with enforceable limits
 
-I build systems that give AI agents real authority — without giving away control.
+I build the control plane for agents that can take consequential actions:
+policy enforcement, credential boundaries, spend limits, and audit receipts.
 
-## What I work on
+⭐ [custodian-kernel](https://github.com/KeyArgo/custodian-kernel) · 118 stars · guards shipped for Codex, Claude, and Hermes
 
-**🔐 Agent governance & safety**
-- [custodian-kernel](https://github.com/KeyArgo/custodian-kernel) — kernel-enforced authority and spend platform for AI agents. Provider-neutral policy + tamper-evident receipts.
-- [custodian-talaria](https://github.com/KeyArgo/custodian-talaria) — governed runtime and operator experience for Hermes Agent.
-- Guards that bring Custodian into real harnesses: [Codex](https://github.com/KeyArgo/custodian-codex-guard), [Claude](https://github.com/KeyArgo/custodian-claude-guard), [Hermes](https://github.com/KeyArgo/custodian-hermes-guard).
+## Custodian
 
-**🖥️ Local LLM infrastructure (NVIDIA DGX Spark)**
-- [sparkrun](https://github.com/KeyArgo/sparkrun) — launch, manage, and stop LLM inference workloads on DGX Spark.
-- [DGX-Model-Manager](https://github.com/KeyArgo/DGX-Model-Manager) — single-file web UI for models, HuggingFace, and inference engines.
-- [dgx-spark-playbooks](https://github.com/KeyArgo/dgx-spark-playbooks) — step-by-step playbooks for AI/ML workloads on Blackwell.
-- [recipe-registry](https://github.com/KeyArgo/recipe-registry) — official Spark Arena recipe registry.
+[**custodian-kernel**](https://github.com/KeyArgo/custodian-kernel) — kernel-enforced authority and spend platform for AI agents. Provider-neutral policy, fail-closed enforcement, tamper-evident receipts.
 
-**🤖 Hermes Agent ecosystem**
-- [turbofit](https://github.com/KeyArgo/turbofit) — local-first adaptive LLM runtime for Hermes.
-- [token-monitor](https://github.com/KeyArgo/token-monitor) — track token usage/costs across 28+ AI coding tools.
-- [hermes-browser-extension](https://github.com/KeyArgo/hermes-browser-extension) — browser-native side panel for Hermes.
+The same decision engine ships across three harnesses:
 
-**🧰 Tools & experiments**
-- [iron-proxy](https://github.com/KeyArgo/iron-proxy) — egress firewall for untrusted workloads.
-- [TerraTracer](https://github.com/KeyArgo/TerraTracer) — geolocation calculations for hikers, mappers, drones.
-- [book-to-skill](https://github.com/KeyArgo/book-to-skill) — turn any technical book PDF into a Claude Code skill.
-- ...and more in [the full repo list](https://github.com/KeyArgo?tab=repositories).
+- [custodian-codex-guard](https://github.com/KeyArgo/custodian-codex-guard) — typed action risk, fail-closed enforcement for OpenAI Codex
+- [custodian-claude-guard](https://github.com/KeyArgo/custodian-claude-guard) — fail-closed policy guard for Claude Code, unstrippable managed-hook enforcement
+- [custodian-hermes-guard](https://github.com/KeyArgo/custodian-hermes-guard) — fail-closed policy guard for Hermes Agent
+- [custodian-stripe](https://github.com/KeyArgo/custodian-stripe) — payment-processor adapter: governance reaches money-shaped actions
+- [custodian-talaria](https://github.com/KeyArgo/custodian-talaria) — governed runtime and operator experience for Hermes Agent
 
-## Stack
+## Local agent infrastructure
 
-Python · TypeScript · JavaScript · AutoHotkey · PyTorch · vLLM · llama.cpp · Ollama · LiteLLM · Hermes Agent
+- [sparkrun](https://github.com/KeyArgo/sparkrun) — launch, manage, and stop LLM inference workloads on NVIDIA DGX Spark
+- [DGX-Model-Manager](https://github.com/KeyArgo/DGX-Model-Manager) — single-file web UI for models, HuggingFace, and inference engines
+- [turbofit](https://github.com/KeyArgo/turbofit) — local-first adaptive LLM runtime for Hermes Agent
+- [token-monitor](https://github.com/KeyArgo/token-monitor) — track token usage and costs across 28+ AI coding tools
 
-## Find me
+## Selected tools
 
-- ✨ [nous-community-expert](https://github.com/KeyArgo/nous-community-expert) — Talio, a real-time Discord community leaderboard.
+[iron-proxy](https://github.com/KeyArgo/iron-proxy) · [TerraTracer](https://github.com/KeyArgo/TerraTracer) · [book-to-skill](https://github.com/KeyArgo/book-to-skill) · [recall-harness](https://github.com/KeyArgo/recall-harness) · [argobeat](https://github.com/KeyArgo/argobeat) · [Meridian OS](https://github.com/KeyArgo/meridian-company-os)
+
+## All repositories
+
+[Browse the full list](https://github.com/KeyArgo?tab=repositories)
