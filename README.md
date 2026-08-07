@@ -7,7 +7,7 @@ policy enforcement, credential boundaries, spend limits, and audit receipts.
 
 ## Custodian
 
-[**custodian-kernel**](https://github.com/KeyArgo/custodian-kernel) — kernel-enforced authority and spend platform for AI agents. Provider-neutral policy, fail-closed enforcement, tamper-evident receipts.
+[**custodian-kernel**](https://github.com/KeyArgo/custodian-kernel) — kernel-enforced authority and spend platform for AI agents. Provider-neutral policy, fail-closed enforcement, tamper-evident receipts. → [docs](https://getcustodian.xyz)
 
 The same decision engine ships across three harnesses:
 
