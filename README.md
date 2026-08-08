@@ -1,33 +1,60 @@
-# KeyArgo — AI agent authority, with enforceable limits
+<div align="center">
+  <img src="https://github.com/KeyArgo/KeyArgo/raw/master/banner.png" alt="AI agent authority, with enforceable limits" width="100%" />
+</div>
 
-I build the control plane for agents that can take consequential actions:
-policy enforcement, credential boundaries, spend limits, and audit receipts.
+<p align="center">
+  <a href="https://github.com/KeyArgo/custodian-kernel"><img src="https://img.shields.io/github/stars/KeyArgo/custodian-kernel?style=for-the-badge&logo=github&color=ffb000" alt="custodian-kernel stars"/></a>
+  <a href="https://getcustodian.xyz"><img src="https://img.shields.io/badge/docs-getcustodian.xyz-00e5ff?style=for-the-badge" alt="docs"/></a>
+  <a href="https://argobox.com"><img src="https://img.shields.io/badge/argobox-argobox.com-d946ef?style=for-the-badge" alt="argobox"/></a>
+</p>
 
-⭐ [custodian-kernel](https://github.com/KeyArgo/custodian-kernel) · 118 stars · guards shipped for Codex, Claude, and Hermes
+<p align="center">
+  <em>I build the control plane for agents that take consequential actions: policy enforcement, credential boundaries, spend limits, and audit receipts.</em>
+</p>
 
-## Custodian
+---
 
-[**custodian-kernel**](https://github.com/KeyArgo/custodian-kernel) — kernel-enforced authority and spend platform for AI agents. Provider-neutral policy, fail-closed enforcement, tamper-evident receipts. → [docs](https://getcustodian.xyz)
+## 🔐 Custodian — kernel-enforced authority for AI agents
 
-The same decision engine ships across three harnesses:
+The same decision engine ships across three harnesses — provider-neutral, fail-closed, with tamper-evident receipts:
 
-- [custodian-codex-guard](https://github.com/KeyArgo/custodian-codex-guard) — typed action risk, fail-closed enforcement for OpenAI Codex
-- [custodian-claude-guard](https://github.com/KeyArgo/custodian-claude-guard) — fail-closed policy guard for Claude Code, unstrippable managed-hook enforcement
-- [custodian-hermes-guard](https://github.com/KeyArgo/custodian-hermes-guard) — fail-closed policy guard for Hermes Agent
-- [custodian-stripe](https://github.com/KeyArgo/custodian-stripe) — payment-processor adapter: governance reaches money-shaped actions
-- [custodian-talaria](https://github.com/KeyArgo/custodian-talaria) — governed runtime and operator experience for Hermes Agent
+- [**custodian-kernel**](https://github.com/KeyArgo/custodian-kernel) — kernel-enforced authority and spend platform · **118★**
+- [**custodian-codex-guard**](https://github.com/KeyArgo/custodian-codex-guard) — fail-closed guard for OpenAI Codex
+- [**custodian-claude-guard**](https://github.com/KeyArgo/custodian-claude-guard) — fail-closed guard for Claude Code, unstrippable managed hooks
+- [**custodian-hermes-guard**](https://github.com/KeyArgo/custodian-hermes-guard) — fail-closed guard for Hermes Agent
+- [**custodian-stripe**](https://github.com/KeyArgo/custodian-stripe) — governance that reaches money-shaped actions
+- [**custodian-talaria**](https://github.com/KeyArgo/custodian-talaria) — governed runtime + operator experience for Hermes Agent
 
-## Local agent infrastructure
+## 🏠 ArgoBox — private AI control plane for homelabs
 
-- [sparkrun](https://github.com/KeyArgo/sparkrun) — launch, manage, and stop LLM inference workloads on NVIDIA DGX Spark
-- [DGX-Model-Manager](https://github.com/KeyArgo/DGX-Model-Manager) — single-file web UI for models, HuggingFace, and inference engines
-- [turbofit](https://github.com/KeyArgo/turbofit) — local-first adaptive LLM runtime for Hermes Agent
-- [token-monitor](https://github.com/KeyArgo/token-monitor) — track token usage and costs across 28+ AI coding tools
+[argobox.com](https://argobox.com) — safe AI agent infrastructure for homelabbers. Approval-first agents, audit trails, no raw shell trust.
 
-## Selected tools
+## 🖥️ Local LLM infrastructure
+
+- [**sparkrun**](https://github.com/KeyArgo/sparkrun) — launch/manage/stop LLM workloads on NVIDIA DGX Spark
+- [**DGX-Model-Manager**](https://github.com/KeyArgo/DGX-Model-Manager) — single-file web UI for models & inference engines
+- [**turbofit**](https://github.com/KeyArgo/turbofit) — local-first adaptive LLM runtime for Hermes Agent
+- [**token-monitor**](https://github.com/KeyArgo/token-monitor) — token usage/costs across 28+ AI coding tools
+
+## 🧰 Selected tools
 
 [iron-proxy](https://github.com/KeyArgo/iron-proxy) · [TerraTracer](https://github.com/KeyArgo/TerraTracer) · [book-to-skill](https://github.com/KeyArgo/book-to-skill) · [recall-harness](https://github.com/KeyArgo/recall-harness) · [argobeat](https://github.com/KeyArgo/argobeat) · [Meridian OS](https://github.com/KeyArgo/meridian-company-os)
 
-## All repositories
+## 📊 GitHub stats
 
-[Browse the full list](https://github.com/KeyArgo?tab=repositories)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KeyArgo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KeyArgo&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" alt="Top languages"/>
+</p>
+
+## 🛠️ Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,rust,pytorch,linux,docker,git" alt="stack icons"/>
+</p>
+
+---
+
+<div align="center">
+  <sub>All repositories · <a href="https://github.com/KeyArgo?tab=repositories">browse the full list</a></sub>
+</div>
