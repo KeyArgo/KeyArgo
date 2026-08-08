@@ -43,8 +43,7 @@ The same decision engine ships across three harnesses — provider-neutral, fail
 ## 📊 GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KeyArgo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KeyArgo&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" alt="Top languages"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KeyArgo&theme=tokyonight&hide_border=true" height="170" alt="GitHub streak stats"/>
 </p>
 
 ## 🛠️ Stack
