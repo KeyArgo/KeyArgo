@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/KeyArgo/KeyArgo/raw/master/banner.png" alt="AI agent authority, with enforceable limits" width="100%" />
+  <img src="https://raw.githubusercontent.com/KeyArgo/KeyArgo/master/banner.png" alt="AI agent authority, with enforceable limits" width="100%" />
 </div>
 
 <p align="center">
